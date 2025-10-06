@@ -4,9 +4,9 @@ using namespace std;
 
 int main() {
 // Frågar användaren om hens namn, och sedan skriver ut “Hej <användarens namn>.”
-    string name;
+    string namej;
     cout << "Vad heter du? " << endl;
-    getline(cin, name);
-    cout << "Hej " << name << "." << endl;
+    getline(cin, namej);
+    cout << "Hej " << namej << "." << endl;
     return 0;
 }
